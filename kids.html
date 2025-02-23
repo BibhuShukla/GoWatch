@@ -6,6 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids Section</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+       
+        
+        .movie-section {
+            padding: 20px;
+        }
+        .movie-grid {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+        }
+        .movie-card {
+            flex: 0 0 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #222;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s;
+        }
+        .movie-card:hover {
+            transform: scale(1.05);
+        }
+        .movie-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .movie-card h3 {
+            padding: 10px;
+            text-align: center;
+        }
+        .movie-card a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background-color: #1DB954;
+            text-decoration: none;
+            color: white;
+            border-radius: 0 0 10px 10px;
+            font-weight: bold;
+        }
+        .movie-card a:hover {
+            background-color: #17a34a;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,5 +62,228 @@
         <h2>Popular Kids Shows</h2>
         <p>Find the best content for kids here!</p>
     </section>
+
+    <section class="movie-section">
+        <h2>Comedy Movies</h2>
+        <div class="movie-grid">
+            <div class="movie-card">
+                <img src="https://vader-prod.s3.amazonaws.com/1627656413-51E72D3SWFL._SL500_.jpg" alt="Movie 1">
+                <h3>Movie Title 1</h3>
+                <a href="movie1.mp4" target="_blank">▶️ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://www.commonsensemedia.org/sites/default/files/styles/ratio_2_3_medium/public/product-images/csm-movie/a-shaun-the-sheep-movie-farmageddon-movie-poster-image.jpg" alt="Movie 2">
+                <h3>Movie Title 2</h3>
+                <a href="movie2.mp4" target="_blank">▶️ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/up-1533222070.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Movie 3">
+                <h3>Movie Title 3</h3>
+                <a href="movie3.mp4" target="_blank">▶️ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1731000607-91lca314cXL.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Movie 5">
+                <h3>Movie Title 4</h3>
+                <a href="movie4.mp4" target="_blank">▶️ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1627595444-51VhmY6XE8L._SL500_.jpg" alt="Movie 5">
+                <h3>Movie Title 5</h3>
+                <a href="movie5.mp4" target="_blank">▶️ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://www.commonsensemedia.org/sites/default/files/styles/ratio_2_3_medium/public/product-images/csm-movie/odd-squad-the-movie-poster0.jpg" alt="Movie 6">
+                <h3>Movie Title 6</h3>
+                <a href="movie6.mp4" target="_blank">▶️ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1618934772-51-snLQcx9L._SL500_.jpg?crop=1xw:0.938xh;center,top&resize=980:*" alt="Movie 7">
+                <h3>Movie Title 7</h3>
+                <a href="movie7.mp4" target="_blank">▶️ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjE0MTM4NTc3NF5BMl5BanBnXkFtZTcwMjYzOTIxNg@@._V1_.jpg" alt="Movie 8">
+                <h3>Movie Title 8</h3>
+                <a href="movie8.mp4" target="_blank">▶️ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://www.weareteachers.com/wp-content/uploads/daddy-day-camp-1-687x1024.jpeg" alt="Movie 9">
+                <h3>Movie Title 9</h3>
+                <a href="movie9.mp4" target="_blank">▶️ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/despicable-me-1533222068.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Movie 10">
+                <h3>Movie Title 10</h3>
+                <a href="movie10.mp4" target="_blank">▶️ Watch Now</a>
+            </div>
+        </div>
+        </section>
+        <section class="movie-section">
+            <h2> Hindi Cartoons & Shows</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/3x4-1735023788538.jpg" alt="Movie 1">
+                    <h3>Movie Title 1</h3>
+                    <a href="movie1.mp4" target="_blank">▶️ Watch Now</a>
+                </div>
+                <div class="movie-card">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMjFhNzU4NmItOTczMC00YTMyLTkzZjgtNTJjZDA0YmRkZTc4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Movie 2">
+                    <h3>Movie Title 2</h3>
+                    <a href="movie2.mp4" target="_blank">▶️ Watch Now</a>
+                </div>
+                <div class="movie-card">
+                    <img src="https://rukminim2.flixcart.com/image/850/1000/kmjhw280/examination-pad/g/b/j/motu-patlu-cartoon-design-digital-reprint-clip-board-exam-pad-original-imagff7mpxggrgyj.jpeg?q=20&crop=false" alt="Movie 3">
+                    <h3>Movie Title 3</h3>
+                    <a href="movie3.mp4" target="_blank">▶️ Watch Now</a>
+                </div>
+                <div class="movie-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVvjlZrqQuH5gfWmT8FraBKCSwCNNzy4awZryp7u2ueJ9TCmXHxDUwQKGAlWnRo6uIOWo&usqp=CAU" alt="Movie 5">
+                    <h3>Movie Title 4</h3>
+                    <a href="movie4.mp4" target="_blank">▶️ Watch Now</a>
+                </div>
+                <div class="movie-card">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMmE5OTc2MTAtZTdhZi00ODQ5LThhOGMtMjVlMWQyODI2ZWRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Movie 5">
+                    <h3>Movie Title 5</h3>
+                    <a href="movie5.mp4" target="_blank">▶️ Watch Now</a>
+                </div>
+                <div class="movie-card">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMzM4NjdmMDUtY2E4MS00NjI3LTgxMzgtOGIxYzZlNWQwZTIwXkEyXkFqcGc@._V1_.jpg" alt="Movie 6">
+                    <h3>Movie Title 6</h3>
+                    <a href="movie6.mp4" target="_blank">▶️ Watch Now</a>
+                </div>
+                <div class="movie-card">
+                    <img src="https://static.digit.in/OTT/v2/images/pyaar-mohobbat-happy-lucky-1353746.jpg" alt="Movie 7">
+                    <h3>Movie Title 7</h3>
+                    <a href="movie7.mp4" target="_blank">▶️ Watch Now</a>
+                </div>
+                <div class="movie-card">
+                    <img src="https://animadworld.com/wp-content/uploads/2021/03/142885161c7d0dc7f00a665ba0162e02.jpg" alt="Movie 8">
+                    <h3>Movie Title 8</h3>
+                    <a href="movie8.mp4" target="_blank">▶️ Watch Now</a>
+                </div>
+                <div class="movie-card">
+                    <img src="https://scrolldroll.com/wp-content/uploads/2022/07/Duck-tales-Best-Old-Hindi-Dubbed-Cartoons-That-We-All-Love.jpg" alt="Movie 9">
+                    <h3>Movie Title 9</h3>
+                    <a href="movie9.mp4" target="_blank">▶️ Watch Now</a>
+                </div>
+                <div class="movie-card">
+                    <img src="https://m.media-amazon.com/images/M/MV5BOWViM2M0ZmQtNDJjMS00NzE5LThiMjktODdmNDliN2JjNTc5XkEyXkFqcGc@._V1_.jpg" alt="Movie 10">
+                    <h3>Movie Title 10</h3>
+                    <a href="movie10.mp4" target="_blank">▶️ Watch Now</a>
+                </div>
+            </div>
+            </section>
+
+            <section class="movie-section">
+                <h2>Animal-Based Cartoons</h2>
+                <div class="movie-grid">
+                    <div class="movie-card">
+                        <img src="https://cdn.vectorstock.com/i/1000v/25/04/animal-cartoon-vector-432504.jpg" alt="Movie 1">
+                        <h3>Movie Title 1</h3>
+                        <a href="movie1.mp4" target="_blank">▶️ Watch Now</a>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://cdn.vectorstock.com/i/1000v/92/05/panda-cartoon-cute-animals-vector-39469205.jpg" alt="Movie 2">
+                        <h3>Movie Title 2</h3>
+                        <a href="movie2.mp4" target="_blank">▶️ Watch Now</a>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.pinimg.com/1200x/04/77/27/047727d70f8e3a69a82d6f7f5ac801c5.jpg" alt="Movie 3">
+                        <h3>Movie Title 3</h3>
+                        <a href="movie3.mp4" target="_blank">▶️ Watch Now</a>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://st3.depositphotos.com/15750242/32900/v/450/depositphotos_329009710-stock-illustration-cute-squid-cartoon-animal-cartoon.jpg" alt="Movie 5">
+                        <h3>Movie Title 4</h3>
+                        <a href="movie4.mp4" target="_blank">▶️ Watch Now</a>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://img.freepik.com/premium-photo/wild-animals-cute-beautiful-baby-koala-cartoon-style-koala_160313-604.jpg?semt=ais_hybrid" alt="Movie 5">
+                        <h3>Movie Title 5</h3>
+                        <a href="movie5.mp4" target="_blank">▶️ Watch Now</a>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.pinimg.com/236x/f9/ab/d7/f9abd7499f6f937c137bbe4211c896f7.jpg" alt="Movie 6">
+                        <h3>Movie Title 6</h3>
+                        <a href="movie6.mp4" target="_blank">▶️ Watch Now</a>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.pinimg.com/550x/33/f7/16/33f716840313c04cd3f5d37c945f184c.jpg" alt="Movie 7">
+                        <h3>Movie Title 7</h3>
+                        <a href="movie7.mp4" target="_blank">▶️ Watch Now</a>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0kvCc_Ikc7YvKBcnPv0a0VUVcl7IRtCrNWNk3Z_l_i5Is8jtutPti8zRME21FGWzYHA0&usqp=CAU" alt="Movie 8">
+                        <h3>Movie Title 8</h3>
+                        <a href="movie8.mp4" target="_blank">▶️ Watch Now</a>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://static.vecteezy.com/system/resources/previews/031/212/560/non_2x/3d-character-mascot-for-a-web-based-educational-platform-targeting-children-photo.jpg" alt="Movie 9">
+                        <h3>Movie Title 9</h3>
+                        <a href="movie9.mp4" target="_blank">▶️ Watch Now</a>
+                    </div>
+                    <div class="movie-card">
+                        <img src="https://i.pinimg.com/236x/55/bc/25/55bc258654cc1557862ddd41354a9cce.jpg" alt="Movie 10">
+                        <h3>Movie Title 10</h3>
+                        <a href="movie10.mp4" target="_blank">▶️ Watch Now</a>
+                    </div>
+                </div>
+                </section>
+                <section class="movie-section">
+                    <h2>Educational Shows</h2>
+                    <div class="movie-grid">
+                        <div class="movie-card">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/educational-tv-shows-for-kids-little-einsteins-1586126309.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Movie 1">
+                            <h3>Movie Title 1</h3>
+                            <a href="movie1.mp4" target="_blank">▶️ Watch Now</a>
+                        </div>
+                        <div class="movie-card">
+                            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-05/17/17/asset/buzzfeed-prod-fastlane-01/sub-buzz-23599-1495056815-3.jpg?downsize=900:*&output-format=auto&output-quality=auto" alt="Movie 2">
+                            <h3>Movie Title 2</h3>
+                            <a href="movie2.mp4" target="_blank">▶️ Watch Now</a>
+                        </div>
+                        <div class="movie-card">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw0O-QLJSsprIJiVg8rifQgFfJ0ejaMJ24P7ANj9JQU4epC0U_BE5r6dMDk4fu5U4asrKjKRHGo13rjzL4c03Uf1kQhZK0qTit-tDxH23NP8PvCodDpoqYjWwEYHVLimJSVEnsuXPQsJlp/s1600/91rVqs85BcL._SL1500_.jpg" alt="Movie 3">
+                            <h3>Movie Title 3</h3>
+                            <a href="movie3.mp4" target="_blank">▶️ Watch Now</a>
+                        </div>
+                        <div class="movie-card">
+                            <img src="https://content-kids.com/wp-content/uploads/2023/07/Ada-Twist-Scientist-TV-Show-review-on-Content-Kids.jpeg" alt="Movie 5">
+                            <h3>Movie Title 4</h3>
+                            <a href="movie4.mp4" target="_blank">▶️ Watch Now</a>
+                        </div>
+                        <div class="movie-card">
+                            <img src="https://m.media-amazon.com/images/M/MV5BYWU1YmQzMjEtMDNjOS00MGIyLWExY2ItZDAzNmU5NWViMGZmXkEyXkFqcGc@._V1_.jpg" alt="Movie 5">
+                            <h3>Movie Title 5</h3>
+                            <a href="movie5.mp4" target="_blank">▶️ Watch Now</a>
+                        </div>
+                        <div class="movie-card">
+                            <img src="https://i.pinimg.com/736x/e1/bd/a4/e1bda433faba35116a6fe90c873e8fb7.jpg" alt="Movie 6">
+                            <h3>Movie Title 6</h3>
+                            <a href="movie6.mp4" target="_blank">▶️ Watch Now</a>
+                        </div>
+                        <div class="movie-card">
+                            <img src="https://tinybeans.com/wp-content/uploads/2019/08/000003418-llipjixc2frmqiuwlpc-1.jpg?w=640" alt="Movie 7">
+                            <h3>Movie Title 7</h3>
+                            <a href="movie7.mp4" target="_blank">▶️ Watch Now</a>
+                        </div>
+                        <div class="movie-card">
+                            <img src="https://i.pinimg.com/564x/c0/65/5f/c0655f90d6056f9e67fa71d42fbf5d85.jpg" alt="Movie 8">
+                            <h3>Movie Title 8</h3>
+                            <a href="movie8.mp4" target="_blank">▶️ Watch Now</a>
+                        </div>
+                        <div class="movie-card">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNzVhNGFkODMtZGE5OC00YjlkLWI4M2EtNjI1ZTc3NTUzYjc4XkEyXkFqcGc@._V1_.jpg" alt="Movie 9">
+                            <h3>Movie Title 9</h3>
+                            <a href="movie9.mp4" target="_blank">▶️ Watch Now</a>
+                        </div>
+                        <div class="movie-card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-M2iAf2w5MErLrQXbuEQdy0HiRKXn0cjIQ&s" alt="Movie 10">
+                            <h3>Movie Title 10</h3>
+                            <a href="movie10.mp4" target="_blank">▶️ Watch Now</a>
+                        </div>
+                    </div>
+                    </section>
+        </body>
 </body>
 </html>

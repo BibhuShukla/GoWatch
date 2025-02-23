@@ -7,6 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies Section</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+       
+        
+        .movie-section {
+            padding: 20px;
+        }
+        .movie-grid {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+        }
+        .movie-card {
+            flex: 0 0 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #222;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s;
+        }
+        .movie-card:hover {
+            transform: scale(1.05);
+        }
+        .movie-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .movie-card h3 {
+            padding: 10px;
+            text-align: center;
+        }
+        .movie-card a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            background-color: #1DB954;
+            text-decoration: none;
+            color: white;
+            border-radius: 0 0 10px 10px;
+            font-weight: bold;
+        }
+        .movie-card a:hover {
+            background-color: #17a34a;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,7 +61,243 @@
 
     <section>
         <h2>Popular Movies Shows</h2>
-        <p>Find the best content for kids here!</p>
     </section>
+
+
+    <section class="movie-section">
+        <h2>Popular Hindi movies</h2>
+       <div class="movie-grid">
+           <div class="movie-card">
+               <img src="  https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00418422-ywqhxabmhq-portrait.jpg" alt="Movie 1">
+             
+               <h3>AZAAD</h3>
+               <a href="#" target="_blank">▶ Watch Now</a>
+           </div>
+           <div class="movie-card">
+               <img src="https://filmfare.wwmindia.com/content/2024/may/bollywoodfilmsinjune202421717137138.jpg" alt="Movie 2">
+               <h3>MUNIJYA</h3>
+               <a href="#" target="_blank">▶ Watch Now</a>
+           </div>
+           <div class="movie-card">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfwsYyO3Zk9nLFBfNI5kqqpSNDywS-UwSGng&s" alt="Movie 3">
+               <h3>GAME CHARGER</h3>
+               <a href="#" target="_blank">▶ Watch Now</a>
+           </div>
+           <div class="movie-card">
+               <img src="https://timesofindia.indiatimes.com/thumb.cms?msid=88016176&width=200&height=281" alt="Movie 4">
+               <h3>ATRANGI RE</h3>
+               <a href="#" target="_blank">▶ Watch Now</a>
+           </div>
+           <div class="movie-card">
+               <img src="https://elinepa.org/wp-content/uploads/2019/08/mushkil-cver.jpg" alt="Movie 5">
+               <h3>MUSKIL</h3>
+               <a href="#" target="_blank">▶ Watch Now</a>
+           </div>
+
+           <div class="movie-card">
+               <img src="https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2024/02/7-1.webp?ssl=1&quality=80&w=728&h=910" alt="Movie 6">
+               <h3>DO AUR DO PYAAR</h3>
+               <a href="#" target="_blank">▶ Watch Now</a>
+           </div>
+           <div class="movie-card">
+               <img src="https://assets.gadgets360cdn.com/pricee/assets/product/202410/do_patti2_1729682924.jpg" alt="Movie 7">
+               <h3>DO PATTI</h3>
+               <a href="#" target="_blank">▶ Watch Now</a>
+           </div>
+           <div class="movie-card">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi6kzovbRCWyZC-vBlPEppCgZRJV9SQKhBwA&s" alt="Movie 8">
+               <h3>1920 HORROS OF THE HEART</h3>
+               <a href="#" target="_blank">▶ Watch Now</a>
+           </div>
+           <div class="movie-card">
+               <img src="https://m.media-amazon.com/images/M/MV5BNTE3OTIxZDYtNjA0NC00N2YxLTg1NGQtOTYxNmZkMDkwOWNjXkEyXkFqcGc@.V1.jpg" alt="Movie 9">
+               <h3>12TH FAIL</h3>
+               <a href="#" target="_blank">▶ Watch Now</a>
+           </div>
+           <div class="movie-card">
+               <img src="https://images.indianexpress.com/2021/12/RRR-3.jpg" alt="Movie 10">
+               <h3>RRR</h3>
+               <a href="#" target="_blank">▶ Watch Now</a>
+           </div>
+
+       </div>
+   </section>
+
+
+
+   <section class="movie-section">
+       <h2> Popular Punjabi Movie </h2>
+      <div class="movie-grid">
+          <div class="movie-card">
+              <img src="https://filmdb.landmarkcinemas.com/FilmImages/22/1/125239/Shayar.jpg" alt="Movie 1">
+              <h3>SHAYAR</h3>
+              <a href="#" target="_blank">▶ Watch Now</a>
+          </div>
+          <div class="movie-card">
+              <img src="https://www.punjabifront.com/wp-content/uploads/2021/10/a-Jal-Wayu-Enclave-copy-scaled.jpg" alt="Movie 2">
+              <h3>JAL WAYU ENCLAVE</h3>
+              <a href="#" target="_blank">▶ Watch Now</a>
+          </div>
+          <div class="movie-card">
+              <img src="https://e1.pxfuel.com/desktop-wallpaper/962/800/desktop-wallpaper-poster-of-punjabi-film-yaara-ve-yaara.jpg" alt="Movie 3">
+              <h3>YAARA VE</h3>
+              <a href="#" target="_blank">▶ Watch Now</a>
+          </div>
+          <div class="movie-card">
+              <img src="https://m.media-amazon.com/images/M/MV5BYTVhYmM5NWEtY2M1YS00NjZmLWJkMzMtN2EyMDE5NGY0NzFkXkEyXkFqcGc@.V1.jpg" alt="Movie 4">
+              <h3>MAUJAAN HI MAUJAAN</h3>
+              <a href="#" target="_blank">▶ Watch Now</a>
+          </div>
+          <div class="movie-card">
+              <img src="https://i.ytimg.com/vi/w6vUHZxPUvI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDO15Rf99V1JBJiM1pzo0O3gCyDvg" alt="Movie 5">
+              <h3>PUAADA</h3>
+              <a href="#" target="_blank">▶ Watch Now</a>
+          </div>
+          <div class="movie-card">
+              <img src="https://upload.wikimedia.org/wikipedia/en/f/ff/Saunkan_Saunkne.jpg" alt="Movie 6">
+              <h3>SAUNKAN SAUNKANE</h3>
+              <a href="#" target="_blank">▶ Watch Now</a>
+          </div>
+          <div class="movie-card">
+              <img src="https://i.pinimg.com/236x/24/2f/7b/242f7b8b6acbdfae584ccac139ba4e73.jpg" alt="Movie 7">
+              <h3>S.H.O SHER SINGH</h3>
+              <a href="#" target="_blank">▶ Watch Now</a>
+          </div>
+          <div class="movie-card">
+              <img src="https://m.media-amazon.com/images/M/MV5BMmRiYWQ1ZTgtODc5ZS00MGI0LThjNjktYWM5MzQ0N2UzMWM1XkEyXkFqcGc@.V1.jpg" alt="Movie 8">
+              <h3>KALA SHAH KALA</h3>
+              <a href="#" target="_blank">▶ Watch Now</a>
+          </div>
+          <div class="movie-card">
+              <img src="https://static.toiimg.com/photo/72525588.cms" alt="Movie 9">
+              <h3>KHATRE GHU GGU</h3>
+              <a href="#" target="_blank">▶ Watch Now</a>
+          </div>
+          <div class="movie-card">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/Mukhtair_chadha_movie_poster.jpg/220px-Mukhtair_chadha_movie_poster.jpg" alt="Movie 10">
+              <h3>MUKHTIAR CHADHA</h3>
+              <a href="#" target="_blank">▶ Watch Now</a>
+          </div>
+          
+          
+      </div>
+  </section>
+
+
+  <section class="movie-section">
+   <h2> Popular English Movie </h2>
+  <div class="movie-grid">
+      <div class="movie-card">
+          <img src="https://m.media-amazon.com/images/I/81yvsCATcUL.AC_UF894,1000_QL80.jpg" alt="Movie 1">
+          <h3>JAWS</h3>
+          <a href="#" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://rukminim2.flixcart.com/image/850/1000/jn3hocw0/poster/s/e/4/medium-hollywood-movie-wall-poster-wonder-woman-diana-prince-original-imaf9uvbvxger33w.jpeg?q=90&crop=false" alt="Movie 2">
+          <h3>WONDER</h3>
+          <a href="#" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2xL2JN_NLPkHIWH1o_Dz70X7NvyFCuKFAZg&s" alt="Movie 3">
+          <h3>THE WATER MAN</h3>
+          <a href="#" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://s3.crackedcdn.com/phpimages/quickfix/8/4/7/261847.jpg?v=1" alt="Movie 4">
+          <h3>X- MAN</h3>
+          <a href="#" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://i.pinimg.com/736x/46/94/8a/46948a1ccddb9c4c0f3c01365ab78d31.jpg" alt="Movie 5">
+          <h3>SICARIO</h3>
+          <a href="#" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://m.behindwoods.com/tamil-movies/cinema-articles-photos/images/the-best-english-films-of-2015-photos-pictures-stills-1.jpg" alt="Movie 6">
+          <h3>BRIDGE OF SPIES</h3>
+          <a href="#" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://www.anythinklibraries.org/sites/default/files/serenity_movie_poster.jpg" alt="Movie 7">
+          <h3>SERENITY</h3>
+          <a href="#" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://lh5.googleusercontent.com/proxy/KjsGH8tPSksEWesi4orFJSRGSQXY83Euaiihc0zLaLzG5ckDwP5nm69AkoTrDyPYjh-M9_x5kmdDUICBz8sySdWJeY3hcEfxEPc2LelYmbRfKA" alt="Movie 8">
+          <h3>FEEDING TOMORROW</h3>
+          <a href="#" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsgFsXEZdveVH4wCX_h7zpd8nOzEWFznAJdA&s" alt="Movie 9">
+          <h3>TELNET</h3>
+          <a href="#" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTqgo424xxtJeJj5RvQ_oY_a8qWOylMLSTDQ&s" alt="Movie 10">
+          <h3>HERETIC</h3>
+          <a href="#" target="_blank">▶ Watch Now</a>
+      </div>
+      
+      
+  </div>
+</section>
+
+<section class="movie-section">
+   <h2>  Popular Tamil movies</h2>
+  <div class="movie-grid">
+      <div class="movie-card">
+          <img src="https://qqcdnpictest.mxplay.com/pic/07368d59216651571db5c688f732a8d4/en/2x3/312x468/test_pic1732515085671.webp" alt="Movie 1">
+          <h3>KADARAM KONDAN</h3>
+          <a href="movie1.mp4" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLiW7kNl0NGXwc9BM8efcExi2cA8uDKv6HKQ&s" alt="Movie 2">
+          <h3> HOT SPOT</h3>
+          <a href="movie2.mp4" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://popcornreviewss.com/wp-content/uploads/2024/01/Captain-Miller-2024-Action-Adventure-Tamil-Movie-Review.jpg" alt="Movie 3">
+          <h3>CAPTAIN MILLER</h3>
+          <a href="movie3.mp4" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://akamaividz2.zee5.com/image/upload/w_336,h_504,c_scale,f_webp,q_auto:eco/resources/0-0-1z5581227/portrait/1920x770c31b39f0fd0d49459fa111be2bb4f3270eb393d0b03344dfb3ca57f5ba55e33b.jpg" alt="Movie 4">
+          <h3>ARANMANAL 4</h3>
+          <a href="movie4.mp4" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://static.moviecrow.com/gallery/20240718/231713-az.jpg" alt="Movie 5">
+          <h3>THE AKAALI</h3>
+          <a href="movie5.mp4" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://assetscdn1.paytm.com/images/cinema/Gajaana-6cede7f0-92a3-11ef-bae8-d9c3d5234b5b.jpg" alt="Movie 6">
+          <h3>GAJAANA</h3>
+          <a href="movie6.mp4" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://akamaividz2.zee5.com/image/upload/w_336,h_504,c_scale,f_webp,q_auto:eco/resources/0-0-1z5704530/portrait/1920x7707e3720703bfe42b8b4ea87c0a7cb00ae091bbb9b25534327a1c6ed360df70d7a.jpg" alt="Movie 7">
+          <h3>MAX</h3>
+          <a href="movie7.mp4" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://s3.ap-south-1.amazonaws.com/media.thesouthfirst.com/wp-content/uploads/2024/12/Lover-e1735281602251.jpeg" alt="Movie 8">
+          <h3>LOVER</h3>
+          <a href="movie8.mp4" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://i.redd.it/2025-for-tamil-cinema-v0-d46y6l3lux5e1.jpg?width=563&format=pjpg&auto=webp&s=a394457ceb4779e37336413e6e17423c9f631dcf" alt="Movie 9">
+          <h3>TEST</h3>
+          <a href="movie9.mp4" target="_blank">▶ Watch Now</a>
+      </div>
+      <div class="movie-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKJ4JOmW_0MZHPuouDCUJROB9RX-j5MKD4CA&s" alt="Movie 10">
+          <h3>UALLI MAYLI</h3>
+          <a href="movie10.mp4" target="_blank">▶ Watch Now</a>
+      </div>
+      
+      
+  </div>
+</section>
 </body>
 </html>

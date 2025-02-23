@@ -6,6 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mythology Section</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #008080, #dea84a, #3D1A78);
+    color: rgb(7, 7, 7);
+}
+marquee {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #021515, #e1712b, #100228);
+    font-size: 2.5rem;
+
+}
+.movie-section {
+    padding: 20px;
+    overflow-x: auto; 
+    white-space: nowrap; 
+}
+
+.movie-grid {
+    display: inline-flex; 
+    gap: 20px;
+}
+
+.movie-card {
+flex: 0 0 200px; 
+}
+
+.movie-card img {
+    width: 350px;
+    height: 350px;
+    object-fit: contain; 
+    background-color: black;
+    border-radius: 20px;
+    
+}
+.movie-card img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+
+.movie-card h3 {
+    padding: 5px;
+    text-align: center;
+}
+
+.movie-card a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(135deg, #303189, #207665, #b017b3);
+    text-decoration: none;
+    color: rgb(247, 239, 239);
+    border-radius: 0 0 10px 10px;
+}
+
+@media (max-width: 768px) {
+    .movie-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.5rem;
+    }
+
+    .movie-card h3 {
+        font-size: 1rem;
+    }
+}
+    </style> 
 </head>
 <body>
     <header>
@@ -15,7 +102,185 @@
 
     <section>
         <h2>Popular Mythology Shows</h2>
-        <p>Find the best content for kids here!</p>
+        
+    </section>
+
+   <marquee>BHAKTI BLISS &nbsp;&nbsp; BHAKTI BLISS &nbsp;&nbsp; BHAKTI BLISS </marquee>
+   <h1>Popular Bhakti Serials and Songs</h1>
+  <section class="movie-section">
+        <div class="movie-grid">
+            <div class="movie-card">
+                <img src="https://hindi.economictimes.com/thumb/msid-74843504,imgsize-32233,width-380,height-214,resizemode-75/74843504.jpg" alt="Ramayan">
+                <h3>RAMAYAN</h3>
+                <a href="ramayan.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/d/da/Mahabharat_2013_title.jpg" alt="Mahabharat">
+                <h3>MAHABHARAT</h3>
+                <a href="mahabharat.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            
+            <div class="movie-card">
+                <img src="https://timesofindia.indiatimes.com/photo/msid-78202030/78202030.jpg?resizemode=4" alt="Om Namah Shivaya">
+                <h3> HANUMAN JI SONG</h3>
+                <a href="om-namah-shivaya.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://i.ytimg.com/vi/hCF8maD_Ypk/hq720.jpg?sqp=-oaymwEhq4qpAxMIARUAAAAAG-lhnirGySlZLaUv6GjQ" alt="Krishna Bhajan">
+                <h3>SHIV BHAJAN</h3>
+                <a href="krishna-bhajan.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://i.ytimg.com/vi/Be1F16LswZ4/maxresdefault.jpg" alt="Bhakti Geet">
+                <h3>RAM BHAKTI GEET</h3>
+                <a href="bhakti-geet.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://v3img.voot.com/resizeMedium,w_810,h_1080/v3Storage/assets/mahakaali-3x4-hindi-1680588746228.jpg" alt="Mahakaali">
+                <h3>MAHAKALI</h3>
+                <a href="mahakaali.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BOTRjOTdjNWMtNDBkMy00MzNkLWI1ZDYtNDkwYTU1MDYwYWY4XkEyXkFqcGc@._V1_.jpg" alt="Devon Ke Dev Mahadev">
+                <h3>SHREEMAD RAMAYAN </h3>
+                <a href="mahadev.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BYzZiY2QyNTMtNTMzMi00ODZkLWEwNWItYmJiM2MyNWJmY2Q5XkEyXkFqcGc@._V1_QL75_UY207_CR3,0,140,207_.jpg" alt="RadhaKrishn">
+                <h3>MAHABHARAT</h3>
+                <a href="Mahabharat.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://i.ytimg.com/vi/QA2YRYI_TQg/maxresdefault.jpg" alt="Sai Baba">
+                <h3>GANAPATI GEET</h3>
+                <a href="saibaba.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://c.saavncdn.com/256/Shree-Hanuman-Chalisa-Hanuman-Ashtak-Hindi-1992-20230904173628-500x500.jpg" alt="Hanuman Chalisa">
+                <h3>HANUMAN</h3>
+                <a href="hanuman-chalisa.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            
+        </div>
+    </section>
+   
+    <h1>Vrat kathayein and Chalisha</h1>
+
+    <section class="movie-section">
+        <div class="movie-grid">
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeu5LpJzaIGRqxL6VXXvgSv3yuhY9Nd_T3pw&s" alt="Ramayan">
+                <h3>TOP 10 CHALISHA</h3>
+                <a href="ramayan.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://images.hindi.news18.com/ibnkhabar/uploads/2022/05/Vat-Savitri-Vrat-2022-3.jpg" alt="Mahabharat">
+                <h3>VAT SAVITRI VRAT KATHA</h3>
+                <a href="mahabharat.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            
+            <div class="movie-card">
+                <img src="https://i.ytimg.com/vi/oLB3tydFJgU/hq720.jpg?sqp=-o-Gxn-u_BPQ" alt="Sharad">
+                <h3>SHARAD VRAT KATHA</h3>
+                <a href="om-namah-shivaya.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://i.ytimg.com/vi/hIyAGNYa19A/maxresdefault.jpg" alt="Krishna Bhajan">
+                <h3>CHHAT POOJA VRAT KATHA</h3>
+                <a href="krishna-bhajan.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ya4dxcxnGP2k30ZDQEGcqZqQ-aN_TlzxRg&s" alt="Bhakti Geet">
+                <h3>TEEJ VRAT KATHA</h3>
+                <a href="bhakti-geet.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWzY3KePbI03zsfjG0ECoLfcgUKv3dR4mFeg&s" alt="Mahakaali">
+                <h3>SOMVAR VRAT KATHA</h3>
+                <a href="mahakaali.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgDKf7VV5BEwsTEs_UHhGZYiUe-qXeNyLbJw&s" alt="Devon Ke Dev Mahadev">
+                <h3>HARITALIKA TEEJ VRAT KATHA</h3>
+                <a href="mahadev.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt-KduDwH9igPvN1ctQupMwFoyREgwU01F6w&s" alt="RadhaKrishn">
+                <h3>MAHALAKSHAMI VRAT KATHA</h3>
+                <a href="Mahabharat.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBDZbDGh29LabFXPseeXR1yevE29TOceJ0cQ&s" alt="Sai Baba">
+                <h3>PRADOSH VRAT KATHA</h3>
+                <a href="saibaba.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWzNed1Cpnwm7ZPSv2H7gIkapPd4q7VxIgg&s" alt="Hanuman Chalisa">
+                <h3>SATYA NARAYAN KATHA</h3>
+                <a href="hanuman-chalisa.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            
+        </div>
+    </section>
+    
+    <h1>Kathayein</h1>
+
+    <section class="movie-section">
+        <div class="movie-grid">
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5frhWyrGthocVsqeUPKOOowKmcuuZcXfhsw&s" alt="Ramayan">
+                <h3>RAM KATHA</h3>
+                <a href="ramayan.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://i.ytimg.com/vi/HxBOFv1Pjvc/maxresdefault.jpg
+                " alt="Mahabharat">
+                <h3>BHAGAWAT KATHA </h3>
+                <a href="mahabharat.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzrmd0SPnmUklWazvV4b6kXNuzJla8OqNlpw&s" alt="Om Namah Shivaya">
+                <h3>BHAGAWAT KATHA </h3>
+                <a href="om-namah-shivaya.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://i.ytimg.com/vi/2aidCldDQD8/maxresdefault.jpg">
+                <h3>PREMANAND JI MAHARAJ</h3>
+                <a href="krishna-bhajan.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS81QpMqMHs5PeyUdel1hu7dwWLPmhTkElBXg&s" alt="Bhakti Geet">
+                <h3>SHREE MADBHAGAWAT KATHA</h3>
+                <a href="bhakti-geet.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://i.ytimg.com/vi/l-SwWbjyhHw/hq720.jpg?sqp=Jd5isBg" alt="Mahakaali">
+                <h3>HANUMAN KATHA</h3>
+                <a href="mahakaali.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://i1.sndcdn.com/artworks-9nPC08SeFMN9-0-t500x500.jpg" alt="Devon Ke Dev Mahadev">
+                <h3>SHREE RAMM KATHA</h3>
+                <a href="mahadev.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://i.ytimg.com/vi/JshiSq6no3w/sddefault.jpg" alt="RadhaKrishn">
+                <h3>SHIV PURAN</h3>
+                <a href="Mahabharat.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://i.ytimg.com/vi/SFomtSIHExA/maxresdefault.jpg">
+                <h3>GARUN PURAN</h3>
+                <a href="saibaba.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNz7U9C0jF2bwgcGDr4xfLYGfB5xcHZlY8SA&s" alt="Hanuman Chalisa">
+                <h3>RAM DEV YOGA</h3>
+                <a href="hanuman-chalisa.mp4" target="_blank">▶ Watch Now</a>
+            </div>
+            
+        </div>
     </section>
 </body>
 </html>

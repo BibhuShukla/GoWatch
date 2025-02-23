@@ -1,0 +1,45 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - GoWatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <h2>Create Account</h2>
+            <div class="form-group">
+                <span class="icon"><i class="fas fa-user"></i></span>
+                <input type="text" id="new-username" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <span class="icon"><i class="fas fa-lock"></i></span>
+                <input type="password" id="new-password" placeholder="Password" required>
+                <span class="password-toggle" onclick="togglePassword('new-password')">
+                    <i class="far fa-eye"></i>
+                </span>
+            </div>
+            <div class="form-group">
+                <span class="icon"><i class="fas fa-lock"></i></span>
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                <span class="password-toggle" onclick="togglePassword('confirm-password')">
+                    <i class="far fa-eye"></i>
+                </span>
+            </div>
+            <button onclick="register()" class="auth-btn">Sign Up</button>
+            <p class="switch-auth">Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
